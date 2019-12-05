@@ -1,0 +1,89 @@
+body{
+    text-align: right;
+    background: #203253;
+    /* background: url(img/pokeback.jpeg) repeat 0 0; */
+    
+    color: white;
+}
+.header{
+    background: url(img/pokeback.jpeg) repeat 0 0;
+    background-position-y: center;    
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header h1{
+    text-align:center;
+    padding: 90px;
+    color: black;
+}
+ul{
+
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+    background-color: #333;
+}
+li{
+    float:left;
+    border-right: 1px solid #bbb;
+}
+li a {
+
+    display: block;
+    color: white;
+    text-align: center;
+    padding:14px 16px;
+    text-decoration: none;
+
+}
+
+li a:hover:not(.active){
+    background-color: #111;
+}
+.active{
+    background-color: #4CAF50;
+}
+
+li:last-child{
+    border-right:none;
+}
+.downOfNav{
+    padding-top:50px;
+    text-align: center;
+}
+.column{
+    float: left;
+    width: 33.3%;
+    
+}
+
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.comments{
+    width: 70em;
+    height: 10em;
+    transition: width 4s;
+    transition: height 4s;
+}
+.comments:hover{
+    height:15em
+}
+.myc{
+    padding-top: 3em;
+}
+button{
+    margin-top: 10px;
+    width: 65px;
+    height: 45px;
+    border: 1px solid darkblue;
+    background-color: blue;
+}
+button:hover{
+    background-color: darkblue;
+}
