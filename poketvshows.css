@@ -1,5 +1,5 @@
 body{
-    text-align: right;
+    text-align: center;
     background: #203253;
     /* background: url(img/pokeback.jpeg) repeat 0 0; */
     
@@ -50,3 +50,28 @@ li a:hover:not(.active){
 li:last-child{
     border-right:none;
 }
+
+section.tvshows{
+    margin-top: 33px;
+
+}
+
+div.gallery{
+    margin-top:5px;
+    border: 1px Solid #ccc;
+    width:400px;
+    height:51px;
+    
+
+}
+div.gallery:hover{
+    border: 1px solid #777;
+}
+div.gallery img{
+    float: left;
+}
+
+text{
+    align:center
+}
+
