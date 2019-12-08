@@ -87,3 +87,26 @@ button{
 button:hover{
     background-color: darkblue;
 }
+
+div.gallery{
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: right;
+    width: 180px;
+    margin-right: 260px;
+
+}
+div.gallery:hover{
+
+    border: 1px solid #777;
+
+}
+div.gallery.img{
+    width: 100%;
+}
+
+div.gallery.text{
+    text-align: center;
+}
+
+
