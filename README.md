@@ -1,3 +1,6 @@
-pokemon project
+Thanks for visting.
 
-pls help me in this orjec by contributing the links of pokemon episoded thankss
+if you want to contribute you can contribute me by giving me okemon episodes link to download
+
+
+:-)
