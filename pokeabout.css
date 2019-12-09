@@ -50,3 +50,16 @@ li a:hover:not(.active){
 li:last-child{
     border-right:none;
 }
+
+
+
+img{
+    border: 1px solid transparent;
+    border-radius: 150px;
+    height: 260px;
+    widows: 260px;
+}
+h5{
+    font-family: sans-serif;
+}
+
